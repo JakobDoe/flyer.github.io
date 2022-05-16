@@ -1,0 +1,6 @@
+Next Steps: 
+position von css div ist anscheinend nicht in selber einheit wie scene.position (vlt pixel?)
+--> position anpassen
+--> zusätzliches div ausgeben mit Link 
+
+--> neuen Marker erstellen, der vlt mehr vom flyer beinhält, damit bild nicht so wackelt?
