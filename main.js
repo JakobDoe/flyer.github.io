@@ -1,5 +1,5 @@
 import {loadGLTF} from "/loader.js";
-import { CSS3DObject } from "/three.js-r132/examples/jsm/renderers/CSS3DRenderer.js"; 
+import { CSS3DObject } from "/flyer.github.io/three.js-r132/examples/jsm/renderers/CSS3DRenderer.js"; 
 const THREE = window.MINDAR.IMAGE.THREE;
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     // Haus hinzufügen
-    const house = await loadGLTF('/NeuHouse/scene.gltf');
+    const house = await loadGLTF('/flyer.github.io/NeuHouse/scene.gltf');
     house.scene.scale.set(0.05, 0.05, 0.05);
     house.scene.position.set(0, 0, 0);
     house.scene.rotation.x += 1.5;
